@@ -2,6 +2,8 @@ body {
      width: 100%; 
     background-color: black;
     
+    
+    
 }
 .container {
      height: 700px;  
@@ -13,108 +15,44 @@ body {
     background-repeat: no-repeat; 
      background-position: center; 
      height: 200px;
-     width: 100%;
+     
  }
 
   section {  
      background-image: url("../images/b1.jpg"); 
+     border-image: auto;
       background-repeat: no-repeat;  
-     background-position: center;   
+     background-position: center; 
       background-attachment: fixed;  
+      margin-left: 205px;
       height: 1000px;  
-      width: 100%;  
+      width: 1280px;  
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
     
 }
-.descricao {
+
+#barraDireita {
     color: aliceblue;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 30px;
-    text-shadow: 2px 2px 5px gray;
+    flex: 1;
+    margin: 5%;
+    
 }
 
-select {
-    font-size: 20px;
-    border: none;
-    color: rgb(5, 21, 236);
-    font: bold;
-    padding: 10px;
-    margin-left: 100px;
-    cursor: pointer;
-    text-align: center;
-    align-items: center;
-}
-
-.texto_serie, .texto_episodio {
+#barraEsquerda {
     color: aliceblue;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 30px;
-    text-shadow: 2px 2px 5px gray;
-    
-}
-
-input {
-    font-size: 20px;
-    border: none;
-    color: rgb(35, 189, 4);
-    font: bold;
-    padding: 10px;
-    width: 60px;  
-    margin-top: 10px;
-}
-
-.controle {
-    
-    text-align: center;
-}
-
-.bplay {
-    padding: 10px;
-    width: 250px;
-    margin-left: 0px;
-    background-color: green;
-    color: aliceblue;
-    font-size: 30px;
-    font-weight: 900;
-    cursor: pointer;
-    
-    
-}
-
-.proximoEp {
-    padding: 5px;
-    width: 150px;
-    height: 40px;
-    background-color: rgb(5, 218, 233);
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 900;
-    cursor: pointer;
-    
-}
-
-.anteriorEp {
-    padding: 5px;
-    width: 150px;
-    height: 40px;
-    background-color: rgb(5, 218, 233);
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 900;
-    cursor: pointer;
-    
-}
-
-video {
-    margin-top: 50px; 
-    cursor: pointer;
+    flex: 3;
+    margin: 5%;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 footer {
